@@ -2,11 +2,14 @@ package com.example.tugas
 
 import android.content.Intent
 import android.os.Bundle
+import android.service.autofill.OnClickAction
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.txt3.*
 import kotlinx.android.synthetic.main.txt4.*
+import kotlin.system.exitProcess
 import com.example.tugas.EXTRA_MESSAGE as EXTRA_MESSAGE
 
 class Activiti3 :AppCompatActivity() {
@@ -20,7 +23,19 @@ class Activiti3 :AppCompatActivity() {
         val message = intent.getStringExtra(EXTRA_MESSAGE)
         val tn = "Beres! Sekarang "+message+ " udah bisa ngecek penggunaan HP mu tiap hari buat bantu "+message+" ngatur waktu :)"
         txt.setText(tn)
-
-             }
+        btm = findViewById(R.id.btp)
+        btm.setOnClickListener(){
+            fun OnClickAction()
+            {
+                System.exit(0)
+            }
+            fun exit() {
+                finish()
+            }
         }
+             }
+
+    }
+
+
 

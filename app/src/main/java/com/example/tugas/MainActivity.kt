@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener{
             startActivity(Intent(this,Activiti::class.java))
             //06-04-2020
+            //Nama  : Muhamad Fachrizal
+            //Kelas : IF5
+            //NIM   : 10117174
         }
 
     }

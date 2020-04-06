@@ -41,7 +41,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/btm"
+        android:id="@+id/btp"
         android:layout_width="184dp"
         android:layout_height="39dp"
         android:background="@drawable/tst"
