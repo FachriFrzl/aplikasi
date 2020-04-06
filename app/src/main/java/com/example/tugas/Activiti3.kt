@@ -20,8 +20,7 @@ class Activiti3 :AppCompatActivity() {
         val message = intent.getStringExtra(EXTRA_MESSAGE)
         val tn = "Beres! Sekarang "+message+ " udah bisa ngecek penggunaan HP mu tiap hari buat bantu "+message+" ngatur waktu :)"
         txt.setText(tn)
-        btm = findViewById(R.id.btm)
-        btm.setOnClickListener(){
+
+             }
         }
-    }
-}
+
