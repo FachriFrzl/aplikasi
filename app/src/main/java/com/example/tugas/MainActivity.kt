@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         btn = findViewById(R.id.tv_button1)
         btn.setOnClickListener{
             startActivity(Intent(this,Activiti::class.java))
+            //06-04-2020
         }
 
     }
