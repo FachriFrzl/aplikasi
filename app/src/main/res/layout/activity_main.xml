@@ -86,6 +86,7 @@
             android:layout_marginBottom="65dp"
             android:background="@drawable/tst"
             android:backgroundTint="#ffc50d"
+            android:textAllCaps="false"
             android:text="Mulai"/>
 
     </RelativeLayout>
